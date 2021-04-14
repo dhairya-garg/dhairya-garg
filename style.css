@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Karantina', cursive;
+}
+
+#work {
+    background-color: aqua;
+    height: 800px;
+    width: 100%;
+}
+
+#game {
+    background-color: red;
+    height: 800px;
+    width: 100%;
+}
+
+#chatbot {
+    background-color: greenyellow;
+    height: 800px;
+    width: 100%;
+}
+
+img {
+    width: 450px;
+    height: 400px;
+    transition:transform 1s; 
+}
+.line{
+    height:6px;
+        width:60px;
+    background-color: black;
+    margin:25px auto;
+}
+img:hover{
+  transform: scale(0.8);
+}
+
